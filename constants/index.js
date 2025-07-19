@@ -87,6 +87,23 @@ export const SKILL_DATA = [
     height: 40,
   },
 ];
+export const SOCIALS = [
+  {
+    name: "Instagram",
+    icon: RxInstagramLogo,
+    link: "https://instagram.com",
+  },
+  {
+    name: "Facebook",
+    icon: FaFacebook,
+    link: "https://facebook.com",
+  },
+  {
+    name: "Twitter",
+    icon: RxTwitterLogo,
+    link: "https://twitter.com",
+  },
+];
 
 export const FRONTEND_SKILL = [
   {
