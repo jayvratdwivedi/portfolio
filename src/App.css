@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
 
 @import "tailwindcss";
+@theme {
+  --background-gradient-radial: radial-gradient(var(--tw-gradient-stops));
+  --background-gradient-conic: conic-gradient(
+    from 180deg at 50% 50%,
+    var(--tw-gradient-stops)
+  );
+  --font-inter: "Inter", sans-serif;
+}
 
 .cursive {
   font-family: "Cedarville Cursive", cursive;
