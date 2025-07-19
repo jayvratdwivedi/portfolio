@@ -1,3 +1,4 @@
+import Encryption from "../components/main/Encryption";
 import Hero from "../components/main/Hero";
 import Navbar from "../components/main/Navbar";
 import Skills from "../components/main/Skills";
@@ -17,6 +18,7 @@ function App() {
         <div className="flex flex-col gap-20">
           <Hero />
           <Skills />
+          <Encryption />
         </div>
       </main>
     </div>
