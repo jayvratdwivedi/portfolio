@@ -8,7 +8,7 @@ import "@fontsource/inter";
 
 function App() {
   return (
-    <div className="relative w-full min-h-screen text-white font-sans overflow-x-hidden overflow-y-auto">
+    <div className="relative w-full min-h-screen text-white font-sans overflow-x-hidden overflow-y-hidden">
       <div className="fixed inset-0 bg-[#030014] -z-20" />
       <div className="fixed inset-0 -z-10">
         <StarsCanvas />
