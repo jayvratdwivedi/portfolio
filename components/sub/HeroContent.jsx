@@ -19,9 +19,7 @@ const HeroContent = () => {
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
-          </h1>
+          <h1 className="Welcome-text text-[13px]">Jayvrat's Portfolio</h1>
         </motion.div>
 
         <motion.div
@@ -29,11 +27,14 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              the best
+              Full Stack
             </span>{" "}
-            project experience.
+            Developer &{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              DevOps
+            </span>{" "}
+            Engineer
           </span>
         </motion.div>
 

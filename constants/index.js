@@ -103,6 +103,11 @@ export const SOCIALS = [
     icon: RxTwitterLogo,
     link: "https://twitter.com",
   },
+  {
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/jayvratdwivedi",
+  },
 ];
 
 export const FRONTEND_SKILL = [
@@ -359,5 +364,5 @@ export const NAV_LINKS = [
 ];
 
 export const LINKS = {
-  sourceCode: "https://github.com/",
+  github: "https://github.com/jayvratdwivedi",
 };
