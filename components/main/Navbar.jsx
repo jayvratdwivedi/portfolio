@@ -18,8 +18,8 @@ const Navbar = () => {
             draggable={false}
             className="cursor-pointer"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">
-            John Doe
+          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300 cursor-pointer hover:text-[rgb(112,66,248)] transition">
+            Jayvrat Dwivedi
           </div>
         </a>
 
@@ -38,12 +38,12 @@ const Navbar = () => {
 
             {/* Source Code */}
             <a
-              href={LINKS.sourceCode}
+              href={LINKS.github}
               target="_blank"
               rel="noreferrer noopener"
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
             >
-              Source Code
+              Github
             </a>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
         <div className="hidden md:flex flex-row gap-5">
           {SOCIALS.map(({ link, name, icon: Icon }) => (
             <a href={link} target="_blank" rel="noreferrer noopener" key={name}>
-              <Icon className="h-6 w-6 text-white" />
+              <Icon className="h-6 w-6 text-white cursor-pointer hover:text-[rgb(112,66,248)] transition" />
             </a>
           ))}
         </div>
