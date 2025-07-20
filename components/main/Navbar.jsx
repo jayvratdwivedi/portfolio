@@ -82,13 +82,13 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href={LINKS.sourceCode}
+              href={LINKS.github}
               target="_blank"
               rel="noreferrer noopener"
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Source Code
+              Github
             </a>
           </div>
 
@@ -101,7 +101,7 @@ const Navbar = () => {
                 rel="noreferrer noopener"
                 key={name}
               >
-                <Icon className="h-8 w-8 text-white" />
+                <Icon className="h-8 w-8 text-white hover:text-[rgb(112,66,248)] transition" />
               </a>
             ))}
           </div>

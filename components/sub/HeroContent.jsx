@@ -42,8 +42,13 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I'm a Full Stack Software Engineer with experience in Website, Mobile,
-          and Software development. Check out my projects and skills.
+          I'm a{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            Full Stack
+          </span>{" "}
+          Software Engineer with experience in Website and Software development.
+          Check out my projects and skills. Currently seeking opportunities to
+          work with dynamic companies that foster growth and creativity.
         </motion.p>
 
         <motion.a
@@ -64,7 +69,7 @@ const HeroContent = () => {
           height={650}
           width={650}
           draggable={false}
-          className="select-none"
+          className="select-none hidden md:flex"
         />
       </motion.div>
     </motion.div>
