@@ -1,6 +1,7 @@
 import Encryption from "../components/main/Encryption";
 import Hero from "../components/main/Hero";
 import Navbar from "../components/main/Navbar";
+import Projects from "../components/main/Projects";
 import Skills from "../components/main/Skills";
 import StarsCanvas from "../components/main/StarCanvas";
 import "./App.css";
@@ -19,6 +20,7 @@ function App() {
           <Hero />
           <Skills />
           <Encryption />
+          <Projects />
         </div>
       </main>
     </div>
