@@ -4,7 +4,7 @@ const ProjectCard = ({ src, title, description, link }) => {
       href={link}
       target="_blank"
       rel="noreferrer noopener"
-      className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]"
+      className="relative flex flex-col w-full md:w-1/3 overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]"
     >
       <img src={src} alt={title} className="w-full object-contain" />
 

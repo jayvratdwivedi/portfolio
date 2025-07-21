@@ -88,20 +88,25 @@ export const SKILL_DATA = [
   },
 ];
 export const SOCIALS = [
-  {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
-  },
-  {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
+  // {
+  //   name: "Instagram",
+  //   icon: RxInstagramLogo,
+  //   link: "https://instagram.com",
+  // },
+  // {
+  //   name: "Facebook",
+  //   icon: FaFacebook,
+  //   link: "https://facebook.com",
+  // },
   {
     name: "Twitter",
     icon: RxTwitterLogo,
     link: "https://twitter.com",
+  },
+  {
+    name: "Linkedin",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/jayvrat-d-a43946258/",
   },
   {
     name: "GitHub",
@@ -263,25 +268,25 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern React + Tailwind CSS Portfolio",
+    title: "E-Commerce Web Application",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      "Experience seamless shopping with my Java-based E-Commerce Web App, a secure and feature-rich platform built using Spring Boot and Spring Security. It offers JWT authentication and real-time email alerts on login, combining robust backend logic with a focus on user experience and account safety.",
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "https://github.com/jayvratdwivedi/ecommerce-app.git",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "EMP Management API",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      "Manage workforce efficiently with my Employee Management System API, a secure and scalable backend built with Java, Spring Boot, and JWT authentication. Featuring role-based access control and login email alerts, it ensures streamlined operations with enhanced data protection and user accountability.",
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "https://github.com/jayvratdwivedi/employee-management-system-api.git",
   },
   {
-    title: "Space Themed Website",
+    title: "College Event Website",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      "Build sleek, interactive web interfaces with my modern frontend stack powered by React, TypeScript, and Tailwind CSS. Designed for speed, responsiveness, and visual polish, it features component reusability, smooth animations, and accessible UI primitives—perfect for scalable, maintainable, and production-ready applications.",
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "https://github.com/jayvratdwivedi/pratishruti_24.git",
   },
 ];
 
