@@ -18,7 +18,7 @@ const Navbar = () => {
             draggable={false}
             className="cursor-pointer"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300 cursor-pointer hover:text-[rgb(112,66,248)] transition">
+          <div className="hidden md:flex md:selffont-bold ml-[10px] text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 cursor-pointer hover:text-[rgb(112,66,248)] transition">
             Jayvrat Dwivedi
           </div>
         </a>
