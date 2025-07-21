@@ -13,7 +13,7 @@
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }
-.Welcome-text {
+.welcome-text {
   background: linear-gradient(
       0deg,
       rgba(255, 255, 255, 0.4),
@@ -25,7 +25,8 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.Welcome-box {
+
+.welcome-box {
   isolation: isolate;
   overflow: hidden;
   align-items: center;
@@ -39,6 +40,15 @@
   width: -moz-max-content;
   width: max-content;
   transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) box-shadow;
+}
+
+@media (max-width: 639px) {
+  .welcome-box {
+    background-color: #382c78;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 10px rgba(56, 44, 120, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
 }
 
 .button-primary {
