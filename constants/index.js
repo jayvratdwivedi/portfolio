@@ -271,21 +271,21 @@ export const PROJECTS = [
     title: "E-Commerce Web Application",
     description:
       "Experience seamless shopping with my Java-based E-Commerce Web App, a secure and feature-rich platform built using Spring Boot and Spring Security. It offers JWT authentication and real-time email alerts on login, combining robust backend logic with a focus on user experience and account safety.",
-    image: "/projects/project-1.png",
+    image: "./projects/project-1.png",
     link: "https://github.com/jayvratdwivedi/ecommerce-app.git",
   },
   {
     title: "EMP Management API",
     description:
       "Manage workforce efficiently with my Employee Management System API, a secure and scalable backend built with Java, Spring Boot, and JWT authentication. Featuring role-based access control and login email alerts, it ensures streamlined operations with enhanced data protection and user accountability.",
-    image: "/projects/project-2.png",
+    image: "./projects/project-2.png",
     link: "https://github.com/jayvratdwivedi/employee-management-system-api.git",
   },
   {
     title: "College Event Website",
     description:
       "Build sleek, interactive web interfaces with my modern frontend stack powered by React, TypeScript, and Tailwind CSS. Designed for speed, responsiveness, and visual polish, it features component reusability, smooth animations, and accessible UI primitives—perfect for scalable, maintainable, and production-ready applications.",
-    image: "/projects/project-3.png",
+    image: "./projects/project-3.png",
     link: "https://github.com/jayvratdwivedi/pratishruti_24.git",
   },
 ];
