@@ -23,7 +23,7 @@ const SkillDataProvider = ({ src, name, width, height, index }) => {
       transition={{ delay: index * animationDelay }}
     >
       <img
-        src={`/skills/${src}`}
+        src={`./skills/${src}`}
         width={width}
         height={height}
         alt={name}
