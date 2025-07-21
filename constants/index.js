@@ -322,7 +322,7 @@ export const FOOTER_DATA = [
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://www.linkedin.com/in/jayvrat-d-a43946258/",
       },
     ],
   },
@@ -330,9 +330,9 @@ export const FOOTER_DATA = [
     title: "About",
     data: [
       {
-        name: "Become Sponsor",
+        name: "Get In Touch",
         icon: null,
-        link: "https://youtube.com",
+        link: "mailto:jayvratdwivedi202@gmail.com",
       },
       {
         name: "Learning about me",
@@ -342,7 +342,7 @@ export const FOOTER_DATA = [
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "mailto:jayvratdwivedi202@gmail.com",
       },
     ],
   },
