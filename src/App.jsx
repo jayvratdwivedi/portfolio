@@ -1,6 +1,7 @@
 import Encryption from "../components/main/Encryption";
 import Footer from "../components/main/Footer";
 import Hero from "../components/main/Hero";
+import HireMe from "../components/main/HireMe";
 import Navbar from "../components/main/Navbar";
 import Projects from "../components/main/Projects";
 import Skills from "../components/main/Skills";
@@ -19,6 +20,9 @@ function App() {
       <main className="h-full w-full">
         <div className="flex flex-col gap-20">
           <Hero />
+          <div className="w-full flex justify-center">
+            <HireMe />
+          </div>
           <Skills />
           <Encryption />
           <Projects />
