@@ -10,12 +10,12 @@
   --font-inter: "Inter", sans-serif;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 393px) {
   .mobile {
     top: -421px;
   }
 }
-@media (min-width: 391px) and (max-width: 1023px) {
+@media (min-width: 394px) and (max-width: 1023px) {
   .mobile-max {
     top: -380px;
   }
