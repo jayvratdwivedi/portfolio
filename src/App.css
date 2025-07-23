@@ -10,6 +10,17 @@
   --font-inter: "Inter", sans-serif;
 }
 
+@media (max-width: 390px) {
+  .mobile {
+    top: -421px;
+  }
+}
+@media (min-width: 391px) and (max-width: 1023px) {
+  .mobile-max {
+    top: -380px;
+  }
+}
+
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }
