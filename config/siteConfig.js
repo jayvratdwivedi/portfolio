@@ -1,6 +1,6 @@
 export const siteConfig = {
-  title: "John Doe | Space Portfolio",
-  description: "Welcome to my full stack Next.js 14 space portfolio.",
+  title: "Jayvrat Dwivedi | Personal Portfolio",
+  description: "Welcome to my full stack portfolio.",
   keywords: [
     "reactjs",
     "nextjs",
@@ -33,7 +33,7 @@ export const siteConfig = {
     "css",
   ],
   authors: {
-    name: "John Doe",
-    url: "https://github.com/",
+    name: "Jayvrat Dwivedi",
+    url: "https://github.com/jayvratdwivedi",
   },
 };

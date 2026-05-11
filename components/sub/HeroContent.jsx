@@ -1,5 +1,6 @@
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
+import { LINKS } from "../../constants";
 import {
   slideInFromLeft,
   slideInFromRight,
@@ -54,8 +55,11 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          href={LINKS.resume}
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Learn more
+          Resume
         </motion.a>
       </div>
 

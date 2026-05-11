@@ -370,4 +370,6 @@ export const NAV_LINKS = [
 
 export const LINKS = {
   github: "https://github.com/jayvratdwivedi",
+  resume:
+    "https://drive.google.com/file/d/1Gc-eAFq4V0ExjI3vufb7skB1RG95dj9h/view?usp=sharing",
 };
